@@ -1,7 +1,7 @@
 package iuh.fit;
 
 public class XMLAdapter implements  JSONTarget{
-    private XMLData xmlData; // Đối tượng XML cần thích ứng
+    private final XMLData xmlData; // Đối tượng XML cần thích ứng
 
     public XMLAdapter(XMLData xmlData) {
         this.xmlData = xmlData;
